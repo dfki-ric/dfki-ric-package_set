@@ -1,0 +1,90 @@
+- pkg_set:github:/rock-core/package_set.git:
+  github: pierrewillenbrockdfki/rock_core_package_set
+  tag: ~
+  branch: feature/qt4-qt5
+  commit: 
+
+- pkg_set:github:/rock-core/rock-package_set.git:
+  github: pierrewillenbrockdfki/rock_core_rock_package_set
+  tag: ~
+  branch: feature/qt4-qt5
+  commit: 
+
+# - base/cmake:
+#   github: pierrewillenbrockdfki/base-cmake
+#   branch: wip-qt4-qt5
+
+- gui/vizkit3d_debug_drawings:
+  github: pierrewillenbrockdfki/gui-vizkit3d_debug_drawings
+  branch: feature/qt4-qt5
+
+- gui/robot_model:
+  github: pierrewillenbrockdfki/gui-robot_model
+  branch: feature/qt4-qt5
+
+- gui/control_ui:
+  github: pierrewillenbrockdfki/gui-control_ui
+  branch: feature/qt4-qt5
+
+- gui/rock_widget_collection:
+  branch: feature/qt4-qt5
+
+- gui/rock-display:
+  branch: feature/qt4-qt5
+
+- control/trajectory_follower:
+  github: pierrewillenbrockdfki/control-trajectory_follower
+  tag: ~
+  branch: feature/qt4-qt5
+
+- planning/motion_planning_libraries:
+  github: pierrewillenbrockdfki/planning-motion_planning_libraries
+  branch: feature/qt4-qt5
+
+- planning/sbpl_spline_primitives:
+  github: pierrewillenbrockdfki/planning-sbpl_spline_primitives
+  branch: feature/qt4-qt5
+
+- slam/envire:
+  github: pierrewillenbrockdfki/slam-envire
+  branch: feature/qt4-qt5
+
+- slam/maps:
+  branch: feature/qt4-qt5
+
+- slam/odometry:
+  github: pierrewillenbrockdfki/slam-odometry
+  branch: feature/qt4-qt5
+
+- tutorials/designer_widget_tutorial:
+  github: pierrewillenbrockdfki/tutorials-designer_widget_tutorial
+  branch: feature/qt4-qt5
+
+- tutorials/vizkit3d_plugin_tutorial:
+  github: pierrewillenbrockdfki/tutorials-vizkit3d_plugin_tutorial
+  branch: feature/qt4-qt5
+
+- tutorials/rock_tutorial:
+  github: pierrewillenbrockdfki/tutorials-rock_tutorial
+  branch: feature/qt4-qt5
+  
+- gui/vizkit3d:
+  github: pierrewillenbrockdfki/gui-vizkit3d
+  branch: feature/qt4-qt5
+
+- base/types:
+  github: pierrewillenbrockdfki/base-types
+  branch: feature/qt4-qt5
+
+- gui/orogen/qt_base:
+  github: pierrewillenbrockdfki/gui-orogen-qt_base
+  branch: feature/qt4-qt5
+
+- orogen:
+  github: pierrewillenbrockdfki/tools-orogen
+  branch: global-init-qt5-support
+
+# this is only making the vizkit dependency optional
+#- slam/orogen/slam3d:
+#  github: pierrewillenbrockdfki/ric-orogen-slam3d
+#  branch: optional-vizkit
