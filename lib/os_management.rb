@@ -9,7 +9,7 @@ module Rock
         # of the given workspace
         def self.cleanup_distribution_overrides(ws: Autoproj.workspace)
             overridesd_dir = Rock::OSManagement::overridesd(ws: ws)
-            return unless File.exists?(overridesd_dir)
+            return unless File.exist?(overridesd_dir)
 
             Dir.chdir(overridesd_dir) do
                 Dir.glob("#{get_prefix()}*").each do |override_file|
@@ -45,7 +45,7 @@ module Rock
             file_changes = {}
             # Fill file_changes with any already existing file,
             # marked for removal.
-            if File.exists?(overridesd_dir)
+            if File.exist?(overridesd_dir)
                 Dir.chdir(overridesd_dir) do
                     Dir.glob("#{get_prefix()}*").each do |override_file|
                         file_changes[override_file] = :remove
@@ -67,7 +67,7 @@ module Rock
             if File.exist?(distribution_overrides_dir)
                 Autoproj.info "Overrides for #{release_name}/#{release_version} are applied in #{pkg_set_dir}"
 
-                if not File.exists?(overridesd_dir)
+                if not File.exist?(overridesd_dir)
                     FileUtils.mkdir overridesd_dir
                 end
 
