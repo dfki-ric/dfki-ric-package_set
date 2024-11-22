@@ -1,3 +1,16 @@
+### Pending PRs only required for Ubuntu 24.04 ###
+# Remove when merged
+# https://github.com/rock-core/tools-service_discovery/pull/10
+- tools/service_discovery:
+  github: chhtz/tools-service_discovery
+  branch: fix/boost_timer
+# https://github.com/rock-core/tools-orocosrb/pull/159
+- tools/orocos.rb:
+  github: chhtz/tools-orocosrb
+  branch: master
+### End of 24.04 PRs ###
+
+
 - pkg_set:github:/rock-core/package_set.git:
   github: pierrewillenbrockdfki/rock_core_package_set
   tag: ~
