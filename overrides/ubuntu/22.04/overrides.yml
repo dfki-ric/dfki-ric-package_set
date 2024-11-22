@@ -26,6 +26,12 @@
   github: pierrewillenbrockdfki/gui-control_ui
   branch: feature/qt4-qt5
 
+- gui/rock_widget_collection:
+  branch: feature/qt4-qt5
+
+- gui/rock-display:
+  branch: feature/qt4-qt5
+
 - control/trajectory_follower:
   github: pierrewillenbrockdfki/control-trajectory_follower
   tag: ~
@@ -41,6 +47,9 @@
 
 - slam/envire:
   github: pierrewillenbrockdfki/slam-envire
+  branch: feature/qt4-qt5
+
+- slam/maps:
   branch: feature/qt4-qt5
 
 - slam/odometry:
@@ -64,7 +73,7 @@
   branch: feature/qt4-qt5
 
 - base/types:
-  github: pierrewillenbrockdfki/base-tpes
+  github: pierrewillenbrockdfki/base-types
   branch: feature/qt4-qt5
 
 - gui/orogen/qt_base:
