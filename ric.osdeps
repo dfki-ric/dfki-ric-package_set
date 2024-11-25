@@ -1,1 +1,14 @@
+# Disable Qt4 installation on Ubuntu 22.04 and later:
+qt4:
+    ubuntu:
+         '18.04, 20.04': [libqt4-dev, qt4-qmake]
+         default: ignore
+qt4-opengl:
+    ubuntu:
+         '18.04, 20.04': libqt4-opengl-dev
+         default: ignore
+
+# Only needed for Ubuntu24 until this gets merged:
+# https://github.com/orocos-toolchain/autoproj/pull/38
+ruby32: ignore
 
