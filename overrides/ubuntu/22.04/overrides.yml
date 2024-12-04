@@ -88,3 +88,26 @@
 #- slam/orogen/slam3d:
 #  github: pierrewillenbrockdfki/ric-orogen-slam3d
 #  branch: optional-vizkit
+
+# https://github.com/rock-cpp/orogen_model_exporter/pull/12
+- tools/orogen_model_exporter:
+  branch: fix-boost-DEPS
+
+# https://github.com/rock-core/tools-graph_analysis/pull/8
+- tools/graph_analysis:
+  branch: fix-boost-DEPS
+
+# https://github.com/rock-slam/slam-orogen-pcl/pull/7
+- slam/orogen/pcl:
+  github: pierrewillenbrockdfki/slam-orogen-pcl
+  branch: pcl12-support
+
+# https://github.com/rock-multiagent/multiagent-fipa_services/pull/1
+- multiagent/fipa_services:
+  github: chhtz/multiagent-fipa_services
+  branch: fix/replace_boost_with_std
+
+# https://github.com/rock-drivers/drivers-orogen-gps/pull/6
+- drivers/orogen/gps:
+  branch: gpsd-10
+
