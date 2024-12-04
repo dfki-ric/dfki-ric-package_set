@@ -88,3 +88,8 @@
 #- slam/orogen/slam3d:
 #  github: pierrewillenbrockdfki/ric-orogen-slam3d
 #  branch: optional-vizkit
+
+# https://github.com/rock-core/tools-graph_analysis/pull/8
+- tools/graph_analysis:
+  branch: fix-boost-DEPS
+
