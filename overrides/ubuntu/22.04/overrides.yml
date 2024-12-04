@@ -16,7 +16,7 @@
 
 - gui/vizkit3d_debug_drawings:
   github: pierrewillenbrockdfki/gui-vizkit3d_debug_drawings
-  branch: feature/qt4-qt5
+  branch: feature/qt4-qt5-ports-dontmerge
 
 - gui/robot_model:
   github: pierrewillenbrockdfki/gui-robot_model
