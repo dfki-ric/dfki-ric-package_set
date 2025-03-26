@@ -21,7 +21,11 @@ module Rock
         # Get the overrides folder of the buildconf in the active
         # autoproj workspace
         def self.overridesd(ws: Autoproj.workspace)
-            return File.join(ws.root_dir, "autoproj","overrides.d")
+            path = File.join(ws.root_dir, "autoproj","overrides.d");
+            if !File.directory?(path)
+                FileUtils.mkdir_p(path)
+            end
+            return path
         end
 
         # Activate the overrides for a workspace, where the override files
