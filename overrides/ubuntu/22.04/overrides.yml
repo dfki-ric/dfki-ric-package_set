@@ -19,7 +19,6 @@
   branch: feature/qt4-qt5
 
 - gui/robot_model:
-  github: pierrewillenbrockdfki/gui-robot_model
   branch: feature/qt4-qt5
 
 - gui/control_ui:
