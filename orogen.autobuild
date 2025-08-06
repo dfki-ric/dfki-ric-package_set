@@ -3,3 +3,4 @@
 ######################
 
 orogen_package 'planning/orogen/ugv_nav4d'
+orogen_package 'planning/orogen/traversability_rock_types'
