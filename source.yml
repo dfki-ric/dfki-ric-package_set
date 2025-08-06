@@ -26,3 +26,6 @@ version_control:
       github: dfki-ric/traversability_generator3d
       branch: main
 
+    - planning/orogen/traversability_rock_types:
+      github: dfki-ric/orogen-traversability_rock_types
+      branch: main
