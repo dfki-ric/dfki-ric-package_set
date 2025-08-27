@@ -11,28 +11,15 @@
 ### End of 24.04 PRs ###
 
 
-- pkg_set:github:/rock-core/package_set.git:
-  github: pierrewillenbrockdfki/rock_core_package_set
-  tag: ~
-  branch: feature/qt4-qt5
-  commit: 
-
 - pkg_set:github:/rock-core/rock-package_set.git:
-  github: pierrewillenbrockdfki/rock_core_rock_package_set
   tag: ~
-  branch: feature/qt4-qt5
-  commit: 
-
-# - base/cmake:
-#   github: pierrewillenbrockdfki/base-cmake
-#   branch: wip-qt4-qt5
+  branch: feature/qt4-qt5-cleanup2
+  commit:
 
 - gui/vizkit3d_debug_drawings:
-  github: pierrewillenbrockdfki/gui-vizkit3d_debug_drawings
   branch: feature/qt4-qt5
 
 - gui/robot_model:
-  github: pierrewillenbrockdfki/gui-robot_model
   branch: feature/qt4-qt5
 
 - gui/control_ui:
@@ -81,10 +68,6 @@
   github: pierrewillenbrockdfki/tutorials-rock_tutorial
   branch: feature/qt4-qt5
   
-- gui/vizkit3d:
-  github: pierrewillenbrockdfki/gui-vizkit3d
-  branch: feature/qt4-qt5
-
 - base/types:
   github: pierrewillenbrockdfki/base-types
   branch: feature/qt4-qt5
@@ -97,7 +80,3 @@
   github: pierrewillenbrockdfki/tools-orogen
   branch: global-init-qt5-support
 
-# this is only making the vizkit dependency optional
-#- slam/orogen/slam3d:
-#  github: pierrewillenbrockdfki/ric-orogen-slam3d
-#  branch: optional-vizkit
