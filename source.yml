@@ -29,3 +29,6 @@ version_control:
     - planning/orogen/traversability_rock_types:
       github: dfki-ric/orogen-traversability_rock_types
       branch: main
+
+    - slam/slam3d_databases:
+      github: dfki-ric/slam3d_databases

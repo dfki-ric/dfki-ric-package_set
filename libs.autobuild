@@ -5,3 +5,8 @@
 cmake_package 'planning/ugv_nav4d'
 cmake_package 'planning/traversability_generator3d'
 
+######################
+# SLAM
+######################
+
+cmake_package 'slam/slam3d_databases'
