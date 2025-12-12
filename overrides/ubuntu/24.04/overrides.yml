@@ -9,9 +9,6 @@
   branch: feature/qt4-qt5-cleanup2
   commit:
 
-- gui/vizkit3d_debug_drawings:
-  branch: feature/qt4-qt5
-
 - gui/robot_model:
   branch: feature/qt4-qt5
 
@@ -19,34 +16,11 @@
   github: pierrewillenbrockdfki/gui-control_ui
   branch: feature/qt4-qt5
 
-- gui/rock_widget_collection:
-  branch: feature/qt4-qt5
-
 - gui/rock-display:
-  branch: feature/qt4-qt5
-
-- control/trajectory_follower:
-  github: pierrewillenbrockdfki/control-trajectory_follower
-  tag: ~
-  branch: feature/qt4-qt5
-
-- planning/motion_planning_libraries:
-  github: pierrewillenbrockdfki/planning-motion_planning_libraries
   branch: feature/qt4-qt5
 
 - planning/sbpl_spline_primitives:
   github: pierrewillenbrockdfki/planning-sbpl_spline_primitives
-  branch: feature/qt4-qt5
-
-- slam/envire:
-  github: pierrewillenbrockdfki/slam-envire
-  branch: feature/qt4-qt5
-
-- slam/maps:
-  branch: feature/qt4-qt5
-
-- slam/odometry:
-  github: pierrewillenbrockdfki/slam-odometry
   branch: feature/qt4-qt5
 
 - tutorials/designer_widget_tutorial:
@@ -61,10 +35,6 @@
   github: pierrewillenbrockdfki/tutorials-rock_tutorial
   branch: feature/qt4-qt5
   
-- base/types:
-  github: pierrewillenbrockdfki/base-types
-  branch: feature/qt4-qt5
-
 - gui/orogen/qt_base:
   github: pierrewillenbrockdfki/gui-orogen-qt_base
   branch: feature/qt4-qt5
