@@ -10,3 +10,4 @@ cmake_package 'planning/traversability_generator3d'
 ######################
 
 cmake_package 'slam/slam3d_databases'
+cmake_package 'slam/slam3d_octomap'

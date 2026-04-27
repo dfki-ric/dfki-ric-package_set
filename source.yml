@@ -32,3 +32,6 @@ version_control:
 
     - slam/slam3d_databases:
       github: dfki-ric/slam3d_databases
+    
+    - slam/slam3d_octomap:
+      github: dfki-ric/slam3d_octomap

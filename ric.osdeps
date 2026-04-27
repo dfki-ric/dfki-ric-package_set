@@ -12,3 +12,5 @@ qt4-opengl:
 # https://github.com/orocos-toolchain/autoproj/pull/38
 ruby32: ignore
 
+octomap:
+    ubuntu: liboctomap-dev

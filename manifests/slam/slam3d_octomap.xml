@@ -1,0 +1,28 @@
+<package>
+  <description brief="Octomap filter for Graph-SLAM Frontend">
+    Generic framework for graph based SLAM in 3-dimensional space.
+  </description>
+  <author>Sebastian Kasperski/sebastian.kasperski@dfki.de</author>
+  <maintainer>Sebastian Kasperski/sebastian.kasperski@dfki.de</maintainer>
+  <license>New BSD</license>
+
+  <depend package="slam/slam3d" />
+  <depend package="octomap" />
+
+
+  <keywords>
+    <keyword>Mapping</keyword>
+  </keywords>
+ 
+  <stage>1</stage>
+  <use>multi project</use>
+  <activity>active</activity>
+
+  <classifiers>
+    <classifier>c++</classifier>
+    <classifier>library</classifier>
+  </classifiers>
+
+  <tags>stable</tags>
+
+</package>
