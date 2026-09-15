@@ -1,6 +1,10 @@
 ### Pending PRs only required for Ubuntu 24.04 ###
 # Remove when merged
-### No PRs at the moment
+
+# https://github.com/rock-core/tools-roby/pull/386
+- tools/roby:
+  branch: fix/remove_facets_constant
+
 ### End of 24.04 PRs ###
 
 
